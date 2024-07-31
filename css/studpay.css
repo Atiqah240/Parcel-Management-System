@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.qr-code {
+    flex: 0 0 30%;
+    max-width: 30%;
+    text-align: center;
+}
+.payment-form {
+    flex: 1;
+    max-width: 60%;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #4a4a4a;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+select, input[type="file"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+select:focus, input[type="file"]:focus {
+    border-color: #921BA3;
+}
+button[type="submit"] {
+    background-color: #921BA3;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+button[type="submit"]:hover {
+    background-color: #357abd;
+}
+.btn btn-primary {
+    background-color: #921BA3;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+.btn btn-primary:hover {
+    background-color: #357abd;
+}

@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 105vh;
+    background-color: #BFACE2;
+    /*background-image: linear-gradient(rgba(0.00, 0.00, 0.00, 0.12),rgba(0.00, 0.00, 0.00, 0.12));*/
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    padding: -10px ;
+    margin-top: -35px;
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    margin-top: -35px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+.link li a:hover{
+    background: white;
+    transition: 0.5s;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 100px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    color: black;
+    font-weight: 500;
+    padding: 10px;;
+}
+.navbar li a:hover{
+    background: #ffac79;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: black;
+}
+.navbar h3{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 70%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content h1{
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 800;
+}
+/*for all of the button*/
+button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #645CBB;
+    transition: 0.3s;
+}
+button:hover{
+    color: white;
+
+}
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3)
+}
+.icon{
+    width: 13px;
+    display: flex;
+    align-items: center;
+}
+.box:hover input{
+    width: 400px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    transition: 0.5s;
+    background: transparent;
+}
+.box a .fas{
+    color: #1daf;
+    font-size: 18px;
+}
+.cointainer{
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    scroll-snap-type: y mandatory;
+
+}
+.slides{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+    background-image: linear-gradient(rgba(0.00, 0.00, 0.00, 0.19),rgba(0.00, 0.00, 0.00, 0.19));
+    scroll-snap-align: start;
+}
+.slides h2{
+    font-size: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}

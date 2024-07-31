@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-color: #BFACE2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar .logo {
+    width: 100px;
+    cursor: pointer;
+}
+.navbar .menu {
+    list-style: none;
+    display: flex;
+}
+.navbar .menu li {
+    margin: 0 15px;
+}
+.navbar .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+.navbar .menu li a:hover {
+    background-color: #645CBB;
+    color: black;
+}
+.content{
+  margin-top: 30%; /* Adjust margin-top as needed */
+}
+.content h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+}
+.content button {
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px solid transparent;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+.content button:hover {
+    background-color: #645CBB;
+    color: white;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+}
+.container .word {
+    max-width: 650px;
+}
+.container .word h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+}
+.container .word h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #555;
+}
+.box {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.box h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.faq-item {
+    margin-bottom: 20px;
+}
+.question {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+.answer {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+.answer.show {
+    display: block;
+}
+/* pricing page */
+.section h1 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 80px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: -70px;
+}
+.pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F7EFE5;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: black;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+.pic img {
+  width: 300px;
+  height: 250px;
+  justify-content: center;
+}
+.pic p {
+  margin: 6px 0 0 0;
+  font-weight: bold;
+  font-size: 28px;
+}
+.pic:hover{
+  transform: translateY(-10px);
+}
+
+/* Service css */
+.service body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: #ad9fc8;
+  width: 580px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper h2 {
+  text-align: center;
+}
+
+.section {
+    text-align: center;
+    margin-top: 100px; /* Adjust the value as needed */
+}
+
+.section h2 {
+    font-size: 36px; /* Adjust the value as needed */
+}
+
+hr {
+  width: 100px;
+  margin: 10px auto;
+}
+
+.service{
+display: flex;  
+justify-content: center;
+align-items: center;
+height: 100vh; /* This will make the container take the full height of the viewport */
+}
+
+.type {
+  margin: 8px;
+}
+
+.type:hover img, .type1:hover img {
+  transform: scale(1.1);
+  border: 1px solid black;
+}
+
+h4, p {
+  text-align: center;
+  font-size: 17px; /* Correct the spacing here */
+  margin: 7px;
+  margin-right: 30px;
+}
+
+.service img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  margin: 30px;
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+/*Auni Contact Us CSS*/
+.contact-section {
+    padding: 20px;
+}
+.contact-header {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #666;
+    margin: 40px 0;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px; /* Slightly rounded corners */
+    margin-right: 20px;
+    border: 2px solid #BFACE2; /* Border color matching the background */
+    background-color: white; /* Ensures there's no black border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for better visual separation */
+}
+.contact-info div {
+    margin-left: 10px;
+    text-align: left;
+}
+.contact-name {
+    margin: 0;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #333;
+}
+.contact-phone {
+    margin: 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* (Aminah) About Us CSS */
+.about-us{
+    min-height: 100vh;
+    padding: 80px 0px;
+    background-color: #BFACE2;
+}
+.container{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+.about-image{
+    width: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.about-image img{
+    display: block;
+    width: 85%;
+    height: auto;
+    margin-left: 40px;
+    transition: transform 0.3s ease;
+}
+.about-image:hover img{
+    transform: scale(1.2);
+}
+.about-content{
+    width: 50%;
+    margin-left: 40px;
+}
+.about-content h1{
+    color: black;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.about-content p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/*Auni Contact Us CSS*/
+contact-section {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #BFACE2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-header {
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #666;
+    margin: 40px 0;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px; /* Slightly rounded corners */
+    margin-right: 20px;
+    border: 2px solid #BFACE2; /* Border color matching the background */
+    background-color: white; /* Ensures there's no black border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for better visual separation */
+}
+.contact-info div {
+    text-align: left;
+    flex: 1;
+}
+
+.contact-name {
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+}
+.contact-phone {
+    margin: 0;
+    font-size: 1.0em;
+    color: #666;
+    white-space: nowrap;
+}
